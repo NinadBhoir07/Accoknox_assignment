@@ -8,9 +8,8 @@ cd dynamic-dashboard
 
 Install Dependencies
 Using npm
-
 npm install
-# Or using yarn
+Or using yarn
 yarn install
 
 Configure Tailwind CSS
