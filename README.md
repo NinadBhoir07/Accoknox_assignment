@@ -6,18 +6,17 @@ git clone https://github.com/your-username/dynamic-cnapp-dashboard.git
 # Navigate to project directory
 cd dynamic-dashboard
 
-2. Install Dependencies
+Install Dependencies
 Using npm
 npm install
 # Or using yarn
 yarn install
 
-3. Configure Tailwind CSS
+Configure Tailwind CSS
 The project comes pre-configured with Tailwind CSS. If you need to customize:
 bash# Tailwind config is already set up in tailwind.config.js
 # PostCSS config is in postcss.config.js
 
-4. Start Development Server
 Start the development server
 npm run dev
 
