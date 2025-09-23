@@ -8,6 +8,7 @@ cd dynamic-dashboard
 
 Install Dependencies
 Using npm
+
 npm install
 # Or using yarn
 yarn install
