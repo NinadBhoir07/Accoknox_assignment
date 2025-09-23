@@ -1,12 +1,23 @@
-# React + Vite
+Quick Start
+1. Clone the Repository
+bash# Clone the repository
+git clone https://github.com/your-username/dynamic-cnapp-dashboard.git
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Navigate to project directory
+cd dynamic-cnapp-dashboard
+2. Install Dependencies
+bash# Using npm
+npm install
 
-Currently, two official plugins are available:
+# Or using yarn
+yarn install
+3. Configure Tailwind CSS
+The project comes pre-configured with Tailwind CSS. If you need to customize:
+bash# Tailwind config is already set up in tailwind.config.js
+# PostCSS config is in postcss.config.js
+4. Start Development Server
+bash# Start the development server
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Or with yarn
+yarn dev
